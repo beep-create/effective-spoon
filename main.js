@@ -66,9 +66,36 @@ keypressed=e.keyCode;
     }
 
 
-
+    if(keypressed == '70')
+    {
+        new_image('ironman_face.png'); 
+        console.log("f");
+    }
+    if(keypressed == '66')
+    {
+        new_image('spiderman_body.png'); 
+        console.log("b");
+    }
+    if(keypressed == '76')
+    {
+        new_image('hulk_legs.png'); 
+        console.log("l");
+    }
+    if(keypressed == '82')
+    {
+        new_image('thor_right_hand.png'); 
+        console.log("r");
+    }
+    if(keypressed == '72')
+    {
+        new_image('captain_america_left_hand.png'); 
+        console.log("h");
+    }
+   
+    }
     
-}
+    
+
 
 function up()
 {
